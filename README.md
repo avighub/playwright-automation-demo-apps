@@ -6,6 +6,7 @@
   - Install browsers: ```npx playwright install```
 - How to Run
   - Navigate to the tests directory where all ```*spec.ts``` files are present 
+  - To Run tests from specific file: ```npx playwright test tests/sample-login-tests/sample-login-app.spec.ts```
   - To Run all tests in command line: ```npx playwright test```
   - To open the interactive UI mode. Mode : ```npx playwright test --ui```
   - To run the tests only on Desktop Chrome: ```npx playwright test --project=chromium```
